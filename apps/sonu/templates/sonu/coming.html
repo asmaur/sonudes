@@ -1,0 +1,77 @@
+{% extends "sonu/base.html" %}
+
+   {% block content %}
+     <div id="main" class="d-flex align-items-center justify-content-center">
+
+        <div class="container">
+
+           <div class="row text-center">
+               <div class="col-8 offset-2" style="font-size: 1.2rem; ;">
+                <h1>SONUDES</h1>
+                <p>Divirta-se a toda hora</p>
+               </div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center content">
+                  <div class="content-icon">
+
+                      <i class="fa fa-comment-alt fa-3x"></i>
+
+                      <hr style="width: 50%; background-color: red; font-size: 3rem; padding: 0;">
+                  </div>
+                   <div class="content-text">
+                       <p> Conversas Quentes. </p>
+                       <em></em>
+                   </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center content ">
+                  <div class="content-icon">
+                      <i class="fas fa-video fa-3x"></i>
+                      <i class="far fa-image fa-3x"></i>
+                      <hr style="width: 50%; background-color: red; font-size: 3rem; padding: 0;">
+                  </div>
+                   <div class="content-text">
+                       <p> Fotos & videos. </p>
+
+                   </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center content">
+                  <div class="content-icon">
+                      <i class="fas fa-bell fa-3x"></i>
+                      <hr style="width: 50%; background-color: red; font-size: 3rem; padding: 0;">
+                  </div>
+                   <div class="content-text">
+                       <p> Por Horas, qualquer hora. </p>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="coming text-center">
+                    <div class="coming-timer">
+
+                        <ul countdown data-date="Jan 05 2019 22:00:00">
+                            <!-- Please use event time this format: YYYY/MM/DD hh:mm:ss -->
+                            <li class="bg-light text-white"><span class="days" data-days>00</span>d</li>
+                            <li class="bg-light text-white"><span class="hours" data-hours>00</span>h</li>
+                            <li class="bg-light text-white"><span class="minutes" data-minutes>00</span>m</li>
+                            <li class="bg-light text-white"><span class="seconds" data-seconds>00</span>s</li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    
+   {% endblock %}

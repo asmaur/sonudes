@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    //background-color: #000;
+    //background-image: url(../img/bellaD.jpg);
+    //background-position: center;
+    //background-repeat: no-repeat;
+    //background-size: cover;
+
+}
+h2{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+#main{
+    min-height: 100%;
+}
+layer{
+    min-height: 100%;
+    background-color: rgba(0,0,0,1);
+}
+.content{
+    margin-top: 1rem;
+    background-color: rgba(0,0,0,.5);
+    //padding: 1rem;
+    border: solid 1px #141414;
+    //height: 10rem;
+    margin: .3rem .5rem 1rem .5rem;
+}
+.content i{
+    padding-top: 1rem;
+}
+.content-text p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.fa-video{
+    color: #2f8ee9; //rgba(196,48,43,1) !important;
+}
+.fa-comment-alt{
+    color: #2f8ee9;//rgba(196,48,43,1);//#128C7E !important;
+}
+
+.navbar {
+    //background-color: #000;
+    z-index: 1;
+}
+.fa-image{
+    color: #2f8ee9;
+    padding-left: .8rem;
+}
+.fa-bell{
+    color: #2f8ee9;
+}
+
+.coming-timer ul li {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    font-size: 16px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.coming-timer ul li span {
+    font-size: 30px;
+}
+
+.text-white {
+    color: rgba(196,48,43,1) !important;
+}
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    
+}
+
+video[poster]{
+   
+top: 0 !important;
+left: 0 !important;
+min-width: 100% !important;
+min-height: 100% !important;
+position: fixed !important;
+}
+
+video-overlay{
+    min-height: 100%;
+    //background-color: aqua;
+}
+/*---Media Queries --*/
+
+@media only screen and (min-width: 320px) {
+
+
+}
+
+@media only screen and (min-width: 375px) {
+    body {
+       // color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    body {
+        //color: green;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        //color: indigo;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        //color: red;
+    }
+}
